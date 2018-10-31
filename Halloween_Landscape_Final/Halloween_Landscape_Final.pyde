@@ -350,8 +350,8 @@ def maximilian():
     #spooky red eyes
     if frameCount % 50 != 0:
         image(red_eyes, 110, 550, 25, 25)
-    if frameCount % (60 * 2) != 0:
+    if frameCount % (60) != 0:
         image(red_eyes, 230, 540, 25, 25)
     #scary lightning
-    if frameCount % (60 * 3) == 0:
+    if frameCount % (60) == 0:
         image(lightning, 500, 25, 500, 500)
